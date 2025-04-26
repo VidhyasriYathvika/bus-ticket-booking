@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+
+}
+body{
+    background-color: rgb(86, 86, 175);
+background-image:url('login-bg.jpg') ;
+background-repeat: no-repeat;
+background-size: cover;
+padding:20px 20px 20px ;
+}
+.container{
+    display:flex;
+    height:700px;
+    width:900px;
+    border:1px solid rgb(216, 243, 95);
+    margin:auto;
+    margin-top:200px;
+    box-sizing: 200px;
+    
+    
+
+    
+
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    background-color: antiquewhite;
+
+}
+.form h1{
+font-size:3rem;
+font-family:'Times New Roman';
+margin:40px;
+}
+.box {
+    padding:15px;
+    width:65%;
+    margin:15px;
+    border:2px solid rgb(6, 7, 1);
+    outline:none;
+    border-radius: 30px;
+    font-size: 20px; 
+    font-weight: bold;
+}
+.email{
+    padding:15px;
+    width:65%;
+    margin:15px;
+    border:2px solid black;
+    outline:none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+#submit{
+    padding:12px 30px;
+    width:40%;
+    margin-top:40px;
+    background-color: rgb(228, 242, 25);
+    color:rgb(142, 18, 18);
+    font-weight:bold;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+font-size: 20px;
+
+}
+#submit:hover{
+    cursor:pointer;
+    background-color: #750000;
+}
+.form a{
+    text-decoration:none;
+    color:rgb(65, 15, 193);
+margin-top:20px;
+font-size: 20px;
+font-size: bold;
+
+}
+.form a:hover{
+    color:rgb(234, 83, 28)
+}
+.side{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    
+}
+.side img{
+    width:450px;
+    height:700px;
+}
+h2{
+    padding-top:100px;
+
+}
